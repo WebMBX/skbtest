@@ -139,6 +139,7 @@
           >
         </div>
       </div>
+
       <div class="footer-options__right">
         <button
           type="button"
@@ -475,6 +476,7 @@ button:hover {
     }
   }
   &__button--active {
+    color: #555;
     &::before {
       transform: rotateZ(45deg);
     }
